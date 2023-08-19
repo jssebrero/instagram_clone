@@ -1,0 +1,18 @@
+{
+    "name": "pepew/instagram",
+    "autoload": {
+        "psr-4": {
+            "Pepew\\Instagram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pepe Sebrero",
+            "email": "jssebrero@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.6",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

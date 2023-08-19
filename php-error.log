@@ -1,0 +1,1202 @@
+[17-Aug-2023 20:33:43 Europe/Berlin] Hello, errors!
+[17-Aug-2023 20:38:53 Europe/Berlin] Hello, errors!
+[17-Aug-2023 20:38:55 Europe/Berlin] Hello, errors!
+[17-Aug-2023 20:39:09 Europe/Berlin] Hello, errors!
+[17-Aug-2023 20:39:42 Europe/Berlin] Hello, errors!
+[17-Aug-2023 20:39:43 Europe/Berlin] Hello, errors!
+[17-Aug-2023 20:39:56 Europe/Berlin] Hello, errors!
+[17-Aug-2023 20:40:14 Europe/Berlin] Hello, errors!
+[17-Aug-2023 20:40:29 Europe/Berlin] Hello, errors!
+[17-Aug-2023 22:17:53 Europe/Berlin] PHP Warning:  Undefined property: Pepew\Instagram\lib\Database::$sss in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 57
+[17-Aug-2023 22:17:53 Europe/Berlin] Usuario no encontrado
+[17-Aug-2023 22:17:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 78
+[17-Aug-2023 22:17:53 Europe/Berlin] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 78
+[17-Aug-2023 22:17:53 Europe/Berlin] 
+[17-Aug-2023 22:17:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[17-Aug-2023 22:17:53 Europe/Berlin] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[17-Aug-2023 22:17:53 Europe/Berlin] 
+[17-Aug-2023 22:17:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 80
+[17-Aug-2023 22:17:53 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 80 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(80): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Login.php(30): Pepew\Instagram\models\User::getUser('sss')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(38): Pepew\Instagram\Controllers\Login->auth()
+#3 [internal function]: {closure}()
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(61): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(14): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[17-Aug-2023 22:18:09 Europe/Berlin] PHP Warning:  Undefined property: Pepew\Instagram\lib\Database::$admin in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 57
+[17-Aug-2023 22:18:09 Europe/Berlin] Usuario no encontrado
+[17-Aug-2023 22:18:09 Europe/Berlin] admin
+[17-Aug-2023 22:18:09 Europe/Berlin] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 22:31:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "getFeed", expecting variable or "$" in C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Home.php on line 17
+[18-Aug-2023 14:33:09 America/Mexico_City] admin
+[18-Aug-2023 14:33:09 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:33:09 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:33:09 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:33:09 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:33:09 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:33:09 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 21
+[18-Aug-2023 14:34:27 America/Mexico_City] admin
+[18-Aug-2023 14:34:27 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:34:27 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:34:27 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:34:27 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:34:27 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:34:27 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 21
+[18-Aug-2023 14:34:28 America/Mexico_City] admin
+[18-Aug-2023 14:34:28 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:34:28 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:34:28 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:34:28 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:34:28 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:34:28 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 21
+[18-Aug-2023 14:35:30 America/Mexico_City] admin
+[18-Aug-2023 14:35:30 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:35:30 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:35:30 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:35:30 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:35:30 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:35:30 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 21
+[18-Aug-2023 14:40:30 America/Mexico_City] admin
+[18-Aug-2023 14:40:30 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:40:30 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:40:30 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:40:30 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:40:30 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:40:30 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 21
+[18-Aug-2023 14:40:32 America/Mexico_City] admin
+[18-Aug-2023 14:40:32 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:40:32 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:40:32 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:40:32 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:40:32 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:40:32 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 21
+[18-Aug-2023 14:40:33 America/Mexico_City] admin
+[18-Aug-2023 14:40:33 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:40:33 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:40:33 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:40:33 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:40:33 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:40:33 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 21
+[18-Aug-2023 14:40:34 America/Mexico_City] admin
+[18-Aug-2023 14:40:34 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:40:34 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:40:34 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:40:34 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:40:34 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:40:34 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 21
+[18-Aug-2023 14:42:11 America/Mexico_City] admin
+[18-Aug-2023 14:42:11 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:42:11 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:42:11 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:42:11 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:42:11 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:42:11 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 21
+[18-Aug-2023 14:42:56 America/Mexico_City] admin
+[18-Aug-2023 14:42:56 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:42:56 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:42:56 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:42:56 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:42:56 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:42:56 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 23
+[18-Aug-2023 14:44:58 America/Mexico_City] admin
+[18-Aug-2023 14:44:58 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:44:58 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:44:58 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:44:58 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:44:58 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:44:58 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 23
+[18-Aug-2023 14:46:24 America/Mexico_City] admin
+[18-Aug-2023 14:46:24 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:46:24 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:46:24 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 18
+[18-Aug-2023 14:46:24 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\View::$d in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:46:24 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 19
+[18-Aug-2023 14:46:24 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 23
+[18-Aug-2023 14:47:29 America/Mexico_City] admin
+[18-Aug-2023 14:47:29 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:47:29 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Pepew\Instagram\models\PostImage::getUser() in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php:27
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\View.php(15): require()
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\Controller.php(18): Pepew\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Home.php(19): Pepew\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(31): Pepew\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(66): Bramus\Router\Router->run()
+#9 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#10 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 27
+[18-Aug-2023 14:47:38 America/Mexico_City] admin
+[18-Aug-2023 14:47:38 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:47:39 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Pepew\Instagram\models\PostImage::getUser() in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php:27
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\View.php(15): require()
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\Controller.php(18): Pepew\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Home.php(19): Pepew\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(31): Pepew\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(66): Bramus\Router\Router->run()
+#9 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#10 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 27
+[18-Aug-2023 14:47:46 America/Mexico_City] admin
+[18-Aug-2023 14:47:46 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:47:46 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Pepew\Instagram\models\PostImage::getUser() in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php:27
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\View.php(15): require()
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\Controller.php(18): Pepew\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Home.php(19): Pepew\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(31): Pepew\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(66): Bramus\Router\Router->run()
+#9 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#10 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 27
+[18-Aug-2023 14:49:37 America/Mexico_City] admin
+[18-Aug-2023 14:49:37 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:49:44 America/Mexico_City] admin
+[18-Aug-2023 14:49:44 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:54:14 America/Mexico_City] admin
+[18-Aug-2023 14:54:14 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:54:14 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Pepew\Instagram\models\PostImage::getUser() in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php:27
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\View.php(15): require()
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\Controller.php(18): Pepew\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Home.php(19): Pepew\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(31): Pepew\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(66): Bramus\Router\Router->run()
+#9 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#10 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 27
+[18-Aug-2023 14:54:15 America/Mexico_City] admin
+[18-Aug-2023 14:54:15 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:54:15 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Pepew\Instagram\models\PostImage::getUser() in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php:27
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\View.php(15): require()
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\Controller.php(18): Pepew\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Home.php(19): Pepew\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(31): Pepew\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(66): Bramus\Router\Router->run()
+#9 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#10 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 27
+[18-Aug-2023 14:54:16 America/Mexico_City] admin
+[18-Aug-2023 14:54:16 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 14:54:16 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Pepew\Instagram\models\PostImage::getUser() in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php:27
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\View.php(15): require()
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\Controller.php(18): Pepew\Instagram\lib\View->render('home/index', Array)
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Home.php(19): Pepew\Instagram\lib\Controller->render('home/index', Array)
+#3 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(31): Pepew\Instagram\controllers\Home->index()
+#4 [internal function]: {closure}()
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(66): Bramus\Router\Router->run()
+#9 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#10 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\views\Home\index.php on line 27
+[18-Aug-2023 14:59:50 America/Mexico_City] admin
+[18-Aug-2023 14:59:50 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 15:25:06 America/Mexico_City] admin
+[18-Aug-2023 15:25:06 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 15:28:05 America/Mexico_City] admin
+[18-Aug-2023 15:28:05 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 15:28:07 America/Mexico_City] hola mundo a todos
+[18-Aug-2023 15:28:07 America/Mexico_City] post_id = 1; user_id = 1
+[18-Aug-2023 15:28:07 America/Mexico_City] admin
+[18-Aug-2023 15:28:07 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 15:54:50 America/Mexico_City] admin
+[18-Aug-2023 15:54:50 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 15:55:20 America/Mexico_City] admin
+[18-Aug-2023 15:55:20 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 15:55:26 America/Mexico_City] hola mundo a todos
+[18-Aug-2023 15:55:26 America/Mexico_City] post_id = 1; user_id = 1
+[18-Aug-2023 15:55:26 America/Mexico_City] admin
+[18-Aug-2023 15:55:26 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 15:55:35 America/Mexico_City] admin
+[18-Aug-2023 15:55:35 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 15:55:38 America/Mexico_City] hola mundo a todos
+[18-Aug-2023 15:55:38 America/Mexico_City] post_id = 1; user_id = 1
+[18-Aug-2023 15:55:38 America/Mexico_City] admin
+[18-Aug-2023 15:55:38 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 15:57:16 America/Mexico_City] admin
+[18-Aug-2023 15:57:16 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 15:57:20 America/Mexico_City] admin
+[18-Aug-2023 15:57:20 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 15:58:46 America/Mexico_City] admin
+[18-Aug-2023 15:58:46 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 15:58:46 America/Mexico_City] admin
+[18-Aug-2023 15:58:46 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 15:58:46 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 78
+[18-Aug-2023 15:58:46 America/Mexico_City] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 78
+[18-Aug-2023 15:58:46 America/Mexico_City] 
+[18-Aug-2023 15:58:46 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 15:58:46 America/Mexico_City] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 15:58:46 America/Mexico_City] 
+[18-Aug-2023 15:58:46 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 80
+[18-Aug-2023 15:58:46 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 80 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(80): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 15:58:46 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 78
+[18-Aug-2023 15:58:46 America/Mexico_City] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 78
+[18-Aug-2023 15:58:46 America/Mexico_City] 
+[18-Aug-2023 15:58:46 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 15:58:46 America/Mexico_City] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 15:58:46 America/Mexico_City] 
+[18-Aug-2023 15:58:46 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 80
+[18-Aug-2023 15:58:46 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 80 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(80): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 15:59:01 America/Mexico_City] admin
+[18-Aug-2023 15:59:01 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:01:53 America/Mexico_City] admin
+[18-Aug-2023 16:01:53 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:01:55 America/Mexico_City] admin
+[18-Aug-2023 16:01:55 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:04:45 America/Mexico_City] admin
+[18-Aug-2023 16:04:45 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:04:59 America/Mexico_City] admin
+[18-Aug-2023 16:04:59 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:05:00 America/Mexico_City] admin
+[18-Aug-2023 16:05:00 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:05:00 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:05:00 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:05:00 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:05:00 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:05:08 America/Mexico_City] admin
+[18-Aug-2023 16:05:08 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:06:38 America/Mexico_City] admin
+[18-Aug-2023 16:06:38 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:06:38 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:06:38 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:06:38 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:06:38 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:07:01 America/Mexico_City] admin
+[18-Aug-2023 16:07:01 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:07:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:07:01 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:07:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:07:01 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:07:08 America/Mexico_City] admin
+[18-Aug-2023 16:07:08 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:07:08 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:07:08 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:07:08 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:07:08 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:07:09 America/Mexico_City] admin
+[18-Aug-2023 16:07:09 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:07:10 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:07:10 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:07:10 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:07:10 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:07:50 America/Mexico_City] admin
+[18-Aug-2023 16:07:50 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:07:50 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:07:50 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:07:50 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:07:50 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:07:51 America/Mexico_City] admin
+[18-Aug-2023 16:07:51 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:07:51 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:07:51 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:07:51 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:07:51 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:09:08 America/Mexico_City] admin
+[18-Aug-2023 16:09:08 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:09:08 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:09:08 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:09:08 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:09:08 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:09:09 America/Mexico_City] admin
+[18-Aug-2023 16:09:09 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:09:09 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:09:09 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:09:09 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:09:09 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:09:10 America/Mexico_City] admin
+[18-Aug-2023 16:09:10 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:09:12 America/Mexico_City] hola mundo a todos
+[18-Aug-2023 16:09:12 America/Mexico_City] post_id = 1; user_id = 1
+[18-Aug-2023 16:09:12 America/Mexico_City] admin
+[18-Aug-2023 16:09:12 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:09:14 America/Mexico_City] admin
+[18-Aug-2023 16:09:14 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:09:14 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:09:14 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:09:14 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:09:14 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug- 16:10:26 America/Mexico_City] admin
+[18-Aug-2023 16:10:26 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:10:26 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:10:26 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:10:26 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:10:26 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:10:27 America/Mexico_City] admin
+[18-Aug-2023 16:10:27 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:10:27 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:10:27 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:10:27 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:10:27 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:11:32 America/Mexico_City] admin
+[18-Aug-2023 16:11:32 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:11:32 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:11:32 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:11:33 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:11:33 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:11:45 America/Mexico_City] admin
+[18-Aug-2023 16:11:45 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:11:45 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:11:45 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:11:46 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:11:46 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:11:47 America/Mexico_City] admin
+[18-Aug-2023 16:11:47 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:11:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:11:47 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:11:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:11:47 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:11:48 America/Mexico_City] hola mundo a todos
+[18-Aug-2023 16:11:48 America/Mexico_City] post_id = 1; user_id = 1
+[18-Aug-2023 16:11:48 America/Mexico_City] admin
+[18-Aug-2023 16:11:48 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:11:48 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:11:48 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:11:48 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:11:48 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(71): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(74): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:19:33 America/Mexico_City] admin
+[18-Aug-2023 16:19:33 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:23:30 America/Mexico_City] admin
+[18-Aug-2023 16:23:30 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:23:40 America/Mexico_City] admin
+[18-Aug-2023 16:23:40 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:23:41 America/Mexico_City] admin
+[18-Aug-2023 16:23:41 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:23:45 America/Mexico_City] admin
+[18-Aug-2023 16:23:45 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:24:20 America/Mexico_City] admin
+[18-Aug-2023 16:24:20 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:24:20 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:24:20 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:24:20 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:24:20 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:24:22 America/Mexico_City] admin
+[18-Aug-2023 16:24:22 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:25:03 America/Mexico_City] admin
+[18-Aug-2023 16:25:03 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:25:24 America/Mexico_City] admin
+[18-Aug-2023 16:25:24 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:25:45 America/Mexico_City] admin
+[18-Aug-2023 16:25:45 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:25:49 America/Mexico_City] admin
+[18-Aug-2023 16:25:49 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:25:51 America/Mexico_City] admin
+[18-Aug-2023 16:25:51 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:25:51 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:25:51 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:25:51 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:25:51 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:26:43 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:26:43 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('sign out')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('sign out')
+#3 [internal function]: {closure}('sign out')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:26:46 America/Mexico_City] admin
+[18-Aug-2023 16:26:46 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:26:46 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:26:46 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:26:46 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:26:46 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:29:18 America/Mexico_City] admin
+[18-Aug-2023 16:29:18 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:29:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:29:18 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:29:18 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:29:18 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:29:19 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:29:19 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('signout')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('signout')
+#3 [internal function]: {closure}('signout')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:29:26 America/Mexico_City] admin
+[18-Aug-2023 16:29:26 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:29:26 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:29:26 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:29:26 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:29:26 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:29:29 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:29:29 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('home')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('home')
+#3 [internal function]: {closure}('home')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:29:53 America/Mexico_City] admin
+[18-Aug-2023 16:29:53 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:29:54 America/Mexico_City] admin
+[18-Aug-2023 16:29:54 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:29:56 America/Mexico_City] admin
+[18-Aug-2023 16:29:56 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:29:58 America/Mexico_City] admin
+[18-Aug-2023 16:29:58 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:30:57 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\Database::$admin in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 57
+[18-Aug-2023 16:30:57 America/Mexico_City] Usuario no encontrado
+[18-Aug-2023 16:30:57 America/Mexico_City] admin
+[18-Aug-2023 16:30:57 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:30:57 America/Mexico_City] admin
+[18-Aug-2023 16:30:57 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:31:03 America/Mexico_City] admin
+[18-Aug-2023 16:31:03 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:31:30 America/Mexico_City] admin
+[18-Aug-2023 16:31:30 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:31:31 America/Mexico_City] admin
+[18-Aug-2023 16:31:31 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:31:32 America/Mexico_City] hola mundo a todos
+[18-Aug-2023 16:31:32 America/Mexico_City] post_id = 1; user_id = 1
+[18-Aug-2023 16:31:32 America/Mexico_City] admin
+[18-Aug-2023 16:31:32 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:31:32 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:31:32 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:31:32 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:31:32 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:31:43 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[18-Aug-2023 16:31:43 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('home')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('home')
+#3 [internal function]: {closure}('home')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[18-Aug-2023 16:31:54 America/Mexico_City] admin
+[18-Aug-2023 16:31:54 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:31:55 America/Mexico_City] admin
+[18-Aug-2023 16:31:55 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:31:56 America/Mexico_City] admin
+[18-Aug-2023 16:31:56 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:32:19 America/Mexico_City] admin
+[18-Aug-2023 16:32:19 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:32:19 America/Mexico_City] admin
+[18-Aug-2023 16:32:19 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:32:24 America/Mexico_City] prueba 2 
+[18-Aug-2023 16:32:24 America/Mexico_City] post_id = 2; user_id = 1
+[18-Aug-2023 16:32:24 America/Mexico_City] admin
+[18-Aug-2023 16:32:24 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:32:24 America/Mexico_City] admin
+[18-Aug-2023 16:32:24 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:34:30 America/Mexico_City] admin
+[18-Aug-2023 16:34:30 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:34:30 America/Mexico_City] admin
+[18-Aug-2023 16:34:30 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:39:42 America/Mexico_City] admin
+[18-Aug-2023 16:39:42 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:39:42 America/Mexico_City] admin
+[18-Aug-2023 16:39:42 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:39:54 America/Mexico_City] admin
+[18-Aug-2023 16:39:54 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:39:54 America/Mexico_City] admin
+[18-Aug-2023 16:39:54 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:39:54 America/Mexico_City] admin
+[18-Aug-2023 16:39:54 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:40:01 America/Mexico_City] admin
+[18-Aug-2023 16:40:01 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:40:01 America/Mexico_City] admin
+[18-Aug-2023 16:40:01 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:40:01 America/Mexico_City] admin
+[18-Aug-2023 16:40:01 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:40:21 America/Mexico_City] PHP Warning:  Undefined property: Pepew\Instagram\lib\Database::$admin in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 57
+[18-Aug-2023 16:40:21 America/Mexico_City] Usuario no encontrado
+[18-Aug-2023 16:40:21 America/Mexico_City] admin
+[18-Aug-2023 16:40:21 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:40:21 America/Mexico_City] admin
+[18-Aug-2023 16:40:21 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:40:21 America/Mexico_City] admin
+[18-Aug-2023 16:40:21 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[18-Aug-2023 16:40:21 America/Mexico_City] admin
+[18-Aug-2023 16:40:21 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[19-Aug-2023 09:01:54 America/Mexico_City] admin
+[19-Aug-2023 09:01:54 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[19-Aug-2023 09:01:54 America/Mexico_City] admin
+[19-Aug-2023 09:01:54 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[19-Aug-2023 09:01:54 America/Mexico_City] admin
+[19-Aug-2023 09:01:54 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[19-Aug-2023 09:01:54 America/Mexico_City] admin
+[19-Aug-2023 09:01:54 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[19-Aug-2023 09:01:54 America/Mexico_City] admin
+[19-Aug-2023 09:01:54 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[19-Aug-2023 09:01:54 America/Mexico_City] admin
+[19-Aug-2023 09:01:54 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[19-Aug-2023 09:02:06 America/Mexico_City] admin
+[19-Aug-2023 09:02:06 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[19-Aug-2023 09:02:06 America/Mexico_City] admin
+[19-Aug-2023 09:02:06 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[19-Aug-2023 09:02:06 America/Mexico_City] admin
+[19-Aug-2023 09:02:06 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[19-Aug-2023 09:02:07 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[19-Aug-2023 09:02:07 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[19-Aug-2023 09:02:07 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[19-Aug-2023 09:02:07 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[19-Aug-2023 09:02:07 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[19-Aug-2023 09:02:07 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[19-Aug-2023 09:02:07 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79
+[19-Aug-2023 09:02:07 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Pepew\Instagram\models\User::__construct(): Argument #1 ($username) must be of type string, null given, called in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 79 and defined in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php:17
+Stack trace:
+#0 C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php(79): Pepew\Instagram\models\User->__construct(NULL, NULL)
+#1 C:\xampp_PHP_8.2.4\htdocs\instagram\src\controllers\Profile.php(21): Pepew\Instagram\models\User::get('public/img/phot...')
+#2 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(97): Pepew\Instagram\controllers\Profile->getUsernameProfile('public/img/phot...')
+#3 [internal function]: {closure}('public/img/phot...')
+#4 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp_PHP_8.2.4\htdocs\instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp_PHP_8.2.4\htdocs\instagram\src\lib\routes.php(100): Bramus\Router\Router->run()
+#8 C:\xampp_PHP_8.2.4\htdocs\instagram\index.php(17): require('C:\\xampp_PHP_8....')
+#9 {main}
+  thrown in C:\xampp_PHP_8.2.4\htdocs\instagram\src\models\User.php on line 17
+[19-Aug-2023 09:02:10 America/Mexico_City] admin
+[19-Aug-2023 09:02:10 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[19-Aug-2023 09:02:10 America/Mexico_City] admin
+[19-Aug-2023 09:02:10 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[19-Aug-2023 09:02:10 America/Mexico_City] admin
+[19-Aug-2023 09:02:10 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[19-Aug-2023 10:37:31 America/Mexico_City] admin
+[19-Aug-2023 10:37:31 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[19-Aug-2023 10:37:31 America/Mexico_City] admin
+[19-Aug-2023 10:37:31 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
+[19-Aug-2023 10:37:31 America/Mexico_City] admin
+[19-Aug-2023 10:37:31 America/Mexico_City] $2y$10$Xe/MQYXwrn2KGHLAu15Iy.FWJbbaWsxB6xV8O.XPNgNcKs9PZg8Sm
